@@ -12,14 +12,14 @@
 <body class="bg"> <!--Background Image class-->
 
     <!--Navbar-->  
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: aliceblue">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: aliceblue;">
         <div class="col-9"></div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse col-3" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="navbar-brand nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav col-3">
+            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
             <a class="nav-item nav-link" href="contact.html">Contact</a>
           </div>
@@ -28,16 +28,28 @@
     </div>
 
     <!--Intro-->
-    <div class="row">
+    <main class="row container">
         <div class="col-1"></div>
-        <div class="jumbotron bg-transparent col-6">
+        <div class="jumbotron bg-transparent col-8">
             <p class="lead">Hi, I'm</p>
             <h1 class="display-4">Kendra</h1>
             <p class="lead">I'm a student in Johns Hopkin's Full Stack Flex bootcamp, primarily interested in front-end web development</p>
         </div>
-    </div> 
+        <div class="col-3"></div>
+    </main> 
+
+    <!--Footer-->
+    <!-- <footer class="footer mt-auto py-3 container">
+      <div class="container">
+          <span class="text-muted">THIS IS FOOTER</span>
+      </div>
+    </footer> -->
+
     
     
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>    
 
 </body>
 
