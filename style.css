@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    width: 100%;
+  }
+  .bg {
+    /* The image used */
+    background-image: url("back-2.jpg");    /* BACKGROUND IMAGE!!! */
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg{
+      color: aliceblue;
+  }
+
+  .jumbotron p{
+      font-size: 32px;
+  }
+
+  .jumbotron h1{
+      font-size: 100px;
+  }
